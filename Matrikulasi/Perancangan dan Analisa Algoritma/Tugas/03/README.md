@@ -9,9 +9,9 @@
 ---
 
 ## Soal 1
-- Program untuk mencari nilai tengah dari 3 buah bilanga yang di input
+#### Susun program untuk menginput 3 (tiga) buah bilangan bulat, (dianggap ketiga buah bilangan tersebut nilainya tidak sama satu dengan yang lain), kemudian cetaklah  bilangan yang nilainya merupakan nilai tengah ( bukan yang terbesar juga bukan yang terkecil).
+
 ```python
-# Program untuk mencetak nilai tengah dari tiga buah nilai yang diinput.
 import os
 import time
 
@@ -58,4 +58,14 @@ while True:
         break
 ```
 ## Hasil program soal 1
+![Image Description](<https://raw.githubusercontent.com/rainerhosch/Budiluhur/main/Matrikulasi/Perancangan%20dan%20Analisa%20Algoritma/Tugas/03/Tugas3-Soal1-hasil.png>)
 
+---
+
+## Soal 2
+#### Susun algoritma untuk menginput 3 buah bilangan yang masing-masing menyatakan panjang garis sisi sebuah segitiga. Kemudian periksa ketiga buah garis tersebut . Bila ketiga buah garis (sisi) tersebut panjangnya sama maka cetak perkataan “SAMA SISI”.  Bila hanya dua sisi yang sama maka cetak perkataan “SAMA KAKI “. Tapi bila ketiga-tiganya tidak sama maka cetak perkataan “SEMBARANG”.
+
+```python
+```
+## Hasil program soal 1
+![Image Description](<https://raw.githubusercontent.com/rainerhosch/Budiluhur/main/Matrikulasi/Perancangan%20dan%20Analisa%20Algoritma/Tugas/03/Tugas3-Soal1-hasil.png>)

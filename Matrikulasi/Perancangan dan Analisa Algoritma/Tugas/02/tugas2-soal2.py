@@ -1,20 +1,20 @@
 from datetime import datetime, timedelta
 
-# Waktu keberangkatan sesuai soal 2 yaitu pukul 08 lewat 52 menit 45 detik
-str_waktu_keberangkatan="08:52:45"
-waktu_keberangkatan = datetime.strptime(str_waktu_keberangkatan, '%H:%M:%S')
+#Wkt berangkat sesuai soal 2 
+strWktBerangkat="08:52:45"
+wktBrangkat = datetime.strptime(strWktBerangkat, '%H:%M:%S')
 
-# waktu kedatangan atau waktu tiba ditujuan pukul: 12:15:10. 
-waktu_tiba = datetime.strptime('12:15:10', '%H:%M:%S')
+#set wtk dtang atau waktu tiba ditujuan pukul: 12:15:10. 
+wktTiba = datetime.strptime('12:15:10', '%H:%M:%S')
 
-print("Seorang berangkat pukul {}:{}:{}".format(waktu_keberangkatan.hour, waktu_keberangkatan.minute, waktu_keberangkatan.second))
-print("(pukul {} lewat {} menit {} detik".format(waktu_keberangkatan.hour, waktu_keberangkatan.minute, waktu_keberangkatan.second),"), \nDan tiba ditujuan pukul: {}:{}:{}".format(waktu_tiba.hour, waktu_tiba.minute, waktu_tiba.second),"\n")
+print("Seorang berangkat pukul {}:{}:{}".format(wktBrangkat.hour, wktBrangkat.minute, wktBrangkat.second))
+print("(pukul {} lewat {} menit {} detik".format(wktBrangkat.hour, wktBrangkat.minute, wktBrangkat.second),"), \nDan tiba ditujuan pukul: {}:{}:{}".format(wktTiba.hour, wktTiba.minute, wktTiba.second),"\n")
 
-# hitung durasi waktu perjalanan
-durasi_waktu_perjalanan = waktu_tiba - waktu_keberangkatan
+# kalklasi wkt perjalanan
+wtkPrjalanan = wktTiba - wktBrangkat
 
-# Mengkonversi durasi waktu perjalanan ke dalam format jam, menit, dan detik
-jam, remainder = divmod(durasi_waktu_perjalanan.total_seconds(), 3600)
+# knversi lama wkt perjalanan ke dalam format jam, menit, dan detik
+jam, remainder = divmod(wtkPrjalanan.total_seconds(), 3600)
 menit, detik = divmod(remainder, 60)
 
 # Cetak durasi perjalanan

@@ -3,3 +3,6 @@
 *.m4v
 *.docx
 *.pdf
+*venv
+*.exe
+*.cpp

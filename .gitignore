@@ -6,3 +6,6 @@
 *venv
 *.exe
 *.cpp
+*.zip
+*.rar
+*.tar

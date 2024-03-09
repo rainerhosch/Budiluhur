@@ -1,11 +1,10 @@
 def main():
-    jarak_titikA_titikB = 1000 #jarak titik A dan titik B dalam satuan meter
-    kecepatan_ali = 2 #kecepatan awal ali 2m per detik
+    jarak_titikA_titikB = 1000 #jarak ttk A dan ttk B
+    kecepatan_ali = 2 #kcepatan awal ali 2m per detik
     kecepatan_badu = 3 #kecepatan awal badu 3m per detik
     rate_akselerasi = 0.1 #variabel rate penambahan akselerasi 0.1m per detik
-    waktu = 0
-
-    posisi_ali = 0
+    waktu = 0 #variabel wktu awal
+    posisi_ali = 0 #posisi awl ali
     posisi_badu = jarak_titikA_titikB
 
     #looping jika posisi ali lebih kecil dari badu

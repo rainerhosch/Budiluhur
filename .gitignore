@@ -11,3 +11,4 @@
 *.tar
 
 .vscode/*
+*__pycache__/
